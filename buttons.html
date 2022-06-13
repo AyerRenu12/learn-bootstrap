@@ -18,7 +18,7 @@ rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tj
     <!-- using btn class -->
     <button class="btn btn-primary">Send</button>
     <!-- using btn in the link -->
-    <a href="index.html" class="btn btn-secondary">Learn more</a>
+    <a href="index.html" class="btn btn-secondary" role="button">Learn more</a>
     <!-- btn in input field -->
     <input type="button"  value="reset">
     <input type="button" class="btn btn-danger" value="reset">
@@ -27,38 +27,36 @@ rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tj
     <!-- outline button -->
     <h2>outline button</h2>
     <button type="button" class="btn btn-outline-success">See more</button>
-    <a href="index.html" class="btn btn-outline-dark">Learn more..</a>
-    <input type="button" class="btn btn-outline-info" value="Read">
+    <a href="index.html" class="btn btn-outline-dark" role="button">Learn more..</a>
+    <input type="button" class="btn btn-outline-info" role="button" value="Read">
     <hr/>
 
     <!-- button size -->
     <h6 class="h2"> button size</h6>
-    <input type="button" class="btn btn-lg btn-danger" value="more">
+    <input type="button" class="btn btn-lg btn-danger" role="button" value="more">
     <button type="button" class="btn btn-sm btn-outline-warning">Goto</button>
     <hr/>
 
     <!-- inactive button -->
     <h3>Disabled buttons:</h3>
     <button type="button" class="btn btn-secondary" disabled>Disabled button</button>
-    <a class="btn btn-lg btn-info disabled" aria-disabled="true">Button</a>
+    <a class="btn btn-lg btn-info disabled" role="button" aria-disabled="true">Button</a>
     <hr/>
 
     <!-- button group -->
     <h3>Button group</h3>
     <div class="btn-group" >
         <button type="button" class="btn btn-primary">Send</button>
-        <a href="index.html" class="btn btn-primary">Read</a>
-        <input type="button" class="btn btn-primary" value="Go"/>
+        <a href="index.html" role="button" class="btn btn-primary">Read</a>
+        <input type="button" role="button" class="btn btn-primary" value="Go"/>
 
     </div>
-    <br>
-    <br>
-    <br>
+   
     <div>
-        <div class="btn-group" >
-         <button type="button" class="btn btn-outline-dark">Send</button>
+        <div class="btn-group p-3" role="group" >
+         <button type="button" class="btn btn-outline-dark" >Send</button>
          <a href="index.html" class="btn btn-outline-dark">Read</a>
-          <input type="button" class="btn btn-outline-dark" value="Go"/>
+          <input type="button" class="btn btn-outline-dark"  value="Go"/>
         </div>
     </div>
     <hr/>
