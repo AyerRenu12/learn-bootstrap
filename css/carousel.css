@@ -1,0 +1,9 @@
+.img-box {
+    height: 100vh;
+    
+}
+.img-box img {
+    object-fit: cover;
+   
+    height: 100%;
+}
